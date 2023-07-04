@@ -1,0 +1,1822 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto</title>
+  <link rel="stylesheet" href="css-main/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css-main/style-main.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container header__container">
+      <div class="top header__top">
+        <div class="top__place-block">
+          <img src="img/header-place.svg" class="top__place-img">
+          <p class="top__place-text">
+            Россия, Москва, 38КМ МКАД, 6Бс1
+          </p>
+        </div>
+        <div class="top__clock-block">
+          <img src="img/header-clock.svg" class="top__clock-img">
+          <p class="top__clock-text">
+            Время работы: c 08:00 до 21:00
+          </p>
+        </div>
+        <div class="top__whatsapp-block">
+          <img src="img/header-whatsapp-1.svg" class="top__whatsapp-img">
+          <p class="top__whatsapp-text">
+            Whatsapp
+          </p>
+        </div>
+      </div>
+
+      <ul class="center header__center-list list-reset">
+        <li class="header__center-item">
+          <a href="index-main.html" class="header__link">
+            <img src="img/header-logo.svg" class="center__logo">
+          </a>
+        </li>
+        <li class="header__center-item">
+          <div class="center__text-block">
+            <span class="center__text-1">10 лет</span>
+            <span class="center__text-2">превосходим ваши ожидания</span>
+          </div>
+        </li>
+        <li class="header__center-item">
+          <ul class="center__nav-list list-reset">
+            <li class="center__nav-item">
+              <a href="select/index-select.html" class="center__nav-link">
+                Подбор авто
+              </a>
+            </li>
+            <li class="center__nav-item">
+              <a href="about/index-about.html" class="center__nav-link">
+                О компании
+              </a>
+            </li>
+            <li class="center__nav-item">
+              <a href="service/index-service.html" class="center__nav-link">
+                Техцентр
+              </a>
+            </li>
+            <li class="center__nav-item">
+              <a href="comments/index-comments.html" class="center__nav-link">
+                Отзывы
+              </a>
+            </li>
+            <li class="center__nav-item">
+              <a href="contacts/index-contacts.html" class="center__nav-link">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="header__center-item">
+          <div class="center__phone-block">
+            <img src="img/header-whatsapp-2.svg" class="center__phone-img">
+            <p class="center__phone-text">+7 (800) 551-94-31</p>
+          </div>
+        </li>
+        <li class="header__center-item">
+          <button class="center__btn btn-reset">
+            Обратный звонок
+          </button>
+        </li>
+      </ul>
+
+      <ul class="bottom header__bottom-list list-reset">
+        <li class="header__bottom-item">
+          <ul class="bottom__nav-list list-reset">
+            <li class="bottom__nav-item">
+              <a href="#" class="bottom__nav-link">
+                <span class="bottom__text">Каталог авто</span>
+                <img src="img/header-arrow.svg" class="bottom__arrow">
+              </a>
+            </li>
+            <li class="bottom__nav-item">
+              <a href="#" class="bottom__nav-link">
+                <span class="bottom__text">Авто с пробегом</span>
+                <img src="img/header-arrow.svg" class="bottom__arrow">
+              </a>
+            </li>
+            <li class="bottom__nav-item">
+              <a href="#" class="bottom__nav-link">
+                <span class="bottom__text">Кредит и рассрочка</span>
+                <img src="img/header-arrow.svg" class="bottom__arrow">
+              </a>
+            </li>
+            <li class="bottom__nav-item">
+              <a href="#" class="bottom__nav-link">
+                <span class="bottom__text">Спецпредложения</span>
+                <img src="img/header-arrow.svg" class="bottom__arrow">
+              </a>
+            </li>
+            <li class="bottom__nav-item">
+              <a href="#" class="bottom__nav-link">
+                <span class="bottom__text">Такси в кредит</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="header__bottom-item">
+          <ul class="bottom__search-list list-reset">
+            <li class="bottom__search-item">
+              <a href="#" class="bottom__search-link">
+                <img src="img/header-heart.svg" class="bottom__search-img">
+                <div class="bottom__search-count">10</div>
+              </a>
+            </li>
+            <li class="bottom__search-item">
+              <a href="#" class="bottom__search-link">
+                <img src="img/header-svg.svg" class="bottom__search-img">
+                <div class="bottom__search-count">12</div>
+              </a>
+            </li>
+            <li class="bottom__search-item">
+              <a href="#" class="bottom__search-link">
+                <img src="img/header-search.svg" class="bottom__search-img">
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero" id="hero">
+      <div class="container hero__container-slider">
+        <div class="swiper-box">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="background-image: url('img/hero-slide-1.jpg');"></div>
+              <div class="swiper-slide" style="background-image: url('img/hero-slide-2.jpg');"></div>
+              <div class="swiper-slide" style="background-image: url('img/hero-slide-3.jpg');"></div>
+              <div class="swiper-slide" style="background-image: url('img/hero-slide-1.jpg');"></div>
+              <div class="swiper-slide" style="background-image: url('img/hero-slide-2.jpg');"></div>
+              <div class="swiper-slide" style="background-image: url('img/hero-slide-3.jpg');"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="text-box">
+            <p class="hero__mark">
+              Осталось всего 10 авто!
+            </p>
+            <h2 class="hero__title">
+              Грандиозная распродажа тестового парка!
+            </h2>
+            <p class="hero__descr">
+              Узнай свою цену!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container hero__container-auto">
+        <ul class="hero__list list-reset">
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/kia.svg" class="hero__img">
+              <span class="hero__text">Kia</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/hyundai.svg" class="hero__img">
+              <span class="hero__text">Hyundai</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/skoda.svg" class="hero__img">
+              <span class="hero__text">Skoda</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/volkswagen.svg" class="hero__img">
+              <span class="hero__text">Volkswagen</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/toyota.svg" class="hero__img">
+              <span class="hero__text">Toyota</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/brilliance.svg" class="hero__img">
+              <span class="hero__text">Brilliance</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/changan.svg" class="hero__img">
+              <span class="hero__text">Changan</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/chery.svg" class="hero__img">
+              <span class="hero__text">Chery</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/cheryexeed.svg" class="hero__img">
+              <span class="hero__text">CheryExeed</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/chevrolet.svg" class="hero__img">
+              <span class="hero__text">Chevrolet</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/citroen.svg" class="hero__img">
+              <span class="hero__text">Citroen</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/datsun.svg" class="hero__img">
+              <span class="hero__text">Datsun</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/dongfeng.svg" class="hero__img">
+              <span class="hero__text">Dongfeng</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/dw-hower.svg" class="hero__img">
+              <span class="hero__text">DW Hower</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/faw.svg" class="hero__img">
+              <span class="hero__text">FAW</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/ford.svg" class="hero__img">
+              <span class="hero__text">Ford</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/foton.svg" class="hero__img">
+              <span class="hero__text">Foton</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/gac.svg" class="hero__img">
+              <span class="hero__text">GAC</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/geely.svg" class="hero__img">
+              <span class="hero__text">Geely</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/great-wall.svg" class="hero__img">
+              <span class="hero__text">Great Wall</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/haima.svg" class="hero__img">
+              <span class="hero__text">Haima</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/haval.svg" class="hero__img">
+              <span class="hero__text">Haval</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/honda.svg" class="hero__img">
+              <span class="hero__text">Honda</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/jac.svg" class="hero__img">
+              <span class="hero__text">JAC</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/lada.svg" class="hero__img">
+              <span class="hero__text">Lada</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/lifan.svg" class="hero__img">
+              <span class="hero__text">Lifan</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/mazda.svg" class="hero__img">
+              <span class="hero__text">Mazda</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/mitsubishi.svg" class="hero__img">
+              <span class="hero__text">Mitsubishi</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/nissan.svg" class="hero__img">
+              <span class="hero__text">Nissan</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/opel.svg" class="hero__img">
+              <span class="hero__text">Opel</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/peugeot.svg" class="hero__img">
+              <span class="hero__text">Peugeot</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/ravon.svg" class="hero__img">
+              <span class="hero__text">Ravon</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/renault.svg" class="hero__img">
+              <span class="hero__text">Renault</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/ssang-yong.svg" class="hero__img">
+              <span class="hero__text">SsangYong</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/suzuki.svg" class="hero__img">
+              <span class="hero__text">Suzuki</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/uaz.svg" class="hero__img">
+              <span class="hero__text">UAZ</span>
+            </a>
+          </li>
+          <li class="hero__item">
+            <a href="#" class="hero__link">
+              <img src="img/zotye.svg" class="hero__img">
+              <span class="hero__text">Zotye</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="auto">
+      <div class="container auto__container">
+        <h2 class="auto__title">
+          Автомобили в наличии с ПТС
+        </h2>
+        <ul class="auto__list list-reset">
+          <li class="auto__item">
+            <div class="auto__main">
+              <div class="auto__title-block">
+                <h3 class="auto__name">
+                  Skoda Octavia 1.6 MPI MT Active
+                </h3>
+                <ul class="auto__favourites-list list-reset">
+                  <li class="auto__favourites-item">
+                    <img src="img/header-heart.svg">
+                  </li>
+                  <li class="auto__favourites-item">
+                    <img src="img/header-svg.svg">
+                  </li>
+                </ul>
+              </div>
+              <div class="auto__marketing">
+                <div class="auto__mark-1">
+                  Предложение дня
+                </div>
+                <div class="auto__mark-2">
+                  <p class="auto__text-1">Выгода</p>
+                  <p class="auto__text-2">до 300 000 ₽</p>
+                </div>
+              </div>
+              <div class="auto__present-block">
+                <div class="auto__left">
+                  <ul class="auto__present-list list-reset">
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">Оборудование</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">КАСКО</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">Комплект резины</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="auto__right"></div>
+              </div>
+            </div>
+            <div class="auto__options">
+              <div class="auto__price-block">
+                <div class="auto__price">от 1 615 000 ₽</div>
+                <div class="auto__credit">
+                  <span class="auto__word">Кредит</span>
+                  <span class="auto__number">от 115 000 ₽/мес.</span>
+                </div>
+              </div>
+              <ul class="auto__details-list list-reset">
+                <li class="auto__details-item">
+                  <img src="img/power.svg" class="auto__details-img">
+                  <div class="auto__details-value">115 л.с.</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/fuel-consumption.svg" class="auto__details-img">
+                  <div class="auto__details-value">5.3 л/км</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/speed.svg" class="auto__details-img">
+                  <div class="auto__details-value">189 км/ч</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/time.svg" class="auto__details-img">
+                  <div class="auto__details-value">10,3 c.</div>
+                </li>
+              </ul>
+            </div>
+            <div class="auto__buttons">
+              <button class="auto__btn-1 btn-reset">Резерв онлайн</button>
+              <button class="auto__btn-2 btn-reset">Купить</button>
+              <button class="auto__btn-3 btn-reset">Подробнее</button>
+            </div>
+          </li>
+          <li class="auto__item">
+            <div class="auto__main">
+              <div class="auto__title-block">
+                <h3 class="auto__name">
+                  Skoda Octavia 1.6 MPI MT Active
+                </h3>
+                <ul class="auto__favourites-list list-reset">
+                  <li class="auto__favourites-item">
+                    <img src="img/header-heart.svg">
+                  </li>
+                  <li class="auto__favourites-item">
+                    <img src="img/header-svg.svg">
+                  </li>
+                </ul>
+              </div>
+              <div class="auto__marketing">
+                <div class="auto__mark-1">
+                  Предложение дня
+                </div>
+                <div class="auto__mark-2">
+                  <p class="auto__text-1">Выгода</p>
+                  <p class="auto__text-2">до 300 000 ₽</p>
+                </div>
+              </div>
+              <div class="auto__present-block">
+                <div class="auto__left">
+                  <ul class="auto__present-list list-reset">
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">Оборудование</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">КАСКО</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">Комплект резины</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="auto__right"></div>
+              </div>
+            </div>
+            <div class="auto__options">
+              <div class="auto__price-block">
+                <div class="auto__price">от 1 615 000 ₽</div>
+                <div class="auto__credit">
+                  <span class="auto__word">Кредит</span>
+                  <span class="auto__number">от 115 000 ₽/мес.</span>
+                </div>
+              </div>
+              <ul class="auto__details-list list-reset">
+                <li class="auto__details-item">
+                  <img src="img/power.svg" class="auto__details-img">
+                  <div class="auto__details-value">115 л.с.</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/fuel-consumption.svg" class="auto__details-img">
+                  <div class="auto__details-value">5.3 л/км</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/speed.svg" class="auto__details-img">
+                  <div class="auto__details-value">189 км/ч</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/time.svg" class="auto__details-img">
+                  <div class="auto__details-value">10,3 c.</div>
+                </li>
+              </ul>
+            </div>
+            <div class="auto__buttons">
+              <button class="auto__btn-1 btn-reset">Резерв онлайн</button>
+              <button class="auto__btn-2 btn-reset">Купить</button>
+              <button class="auto__btn-3 btn-reset">Подробнее</button>
+            </div>
+          </li>
+          <li class="auto__item">
+            <div class="auto__main">
+              <div class="auto__title-block">
+                <h3 class="auto__name">
+                  Skoda Octavia 1.6 MPI MT Active
+                </h3>
+                <ul class="auto__favourites-list list-reset">
+                  <li class="auto__favourites-item">
+                    <img src="img/header-heart.svg">
+                  </li>
+                  <li class="auto__favourites-item">
+                    <img src="img/header-svg.svg">
+                  </li>
+                </ul>
+              </div>
+              <div class="auto__marketing">
+                <div class="auto__mark-1">
+                  Предложение дня
+                </div>
+                <div class="auto__mark-2">
+                  <p class="auto__text-1">Выгода</p>
+                  <p class="auto__text-2">до 300 000 ₽</p>
+                </div>
+              </div>
+              <div class="auto__present-block">
+                <div class="auto__left">
+                  <ul class="auto__present-list list-reset">
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">Оборудование</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">КАСКО</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">Комплект резины</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="auto__right"></div>
+              </div>
+            </div>
+            <div class="auto__options">
+              <div class="auto__price-block">
+                <div class="auto__price">от 1 615 000 ₽</div>
+                <div class="auto__credit">
+                  <span class="auto__word">Кредит</span>
+                  <span class="auto__number">от 115 000 ₽/мес.</span>
+                </div>
+              </div>
+              <ul class="auto__details-list list-reset">
+                <li class="auto__details-item">
+                  <img src="img/power.svg" class="auto__details-img">
+                  <div class="auto__details-value">115 л.с.</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/fuel-consumption.svg" class="auto__details-img">
+                  <div class="auto__details-value">5.3 л/км</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/speed.svg" class="auto__details-img">
+                  <div class="auto__details-value">189 км/ч</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/time.svg" class="auto__details-img">
+                  <div class="auto__details-value">10,3 c.</div>
+                </li>
+              </ul>
+            </div>
+            <div class="auto__buttons">
+              <button class="auto__btn-1 btn-reset">Резерв онлайн</button>
+              <button class="auto__btn-2 btn-reset">Купить</button>
+              <button class="auto__btn-3 btn-reset">Подробнее</button>
+            </div>
+          </li>
+          <li class="auto__item">
+            <div class="auto__main">
+              <div class="auto__title-block">
+                <h3 class="auto__name">
+                  Skoda Octavia 1.6 MPI MT Active
+                </h3>
+                <ul class="auto__favourites-list list-reset">
+                  <li class="auto__favourites-item">
+                    <img src="img/header-heart.svg">
+                  </li>
+                  <li class="auto__favourites-item">
+                    <img src="img/header-svg.svg">
+                  </li>
+                </ul>
+              </div>
+              <div class="auto__marketing">
+                <div class="auto__mark-1">
+                  Предложение дня
+                </div>
+                <div class="auto__mark-2">
+                  <p class="auto__text-1">Выгода</p>
+                  <p class="auto__text-2">до 300 000 ₽</p>
+                </div>
+              </div>
+              <div class="auto__present-block">
+                <div class="auto__left">
+                  <ul class="auto__present-list list-reset">
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">Оборудование</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">КАСКО</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">Комплект резины</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="auto__right"></div>
+              </div>
+            </div>
+            <div class="auto__options">
+              <div class="auto__price-block">
+                <div class="auto__price">от 1 615 000 ₽</div>
+                <div class="auto__credit">
+                  <span class="auto__word">Кредит</span>
+                  <span class="auto__number">от 115 000 ₽/мес.</span>
+                </div>
+              </div>
+              <ul class="auto__details-list list-reset">
+                <li class="auto__details-item">
+                  <img src="img/power.svg" class="auto__details-img">
+                  <div class="auto__details-value">115 л.с.</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/fuel-consumption.svg" class="auto__details-img">
+                  <div class="auto__details-value">5.3 л/км</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/speed.svg" class="auto__details-img">
+                  <div class="auto__details-value">189 км/ч</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/time.svg" class="auto__details-img">
+                  <div class="auto__details-value">10,3 c.</div>
+                </li>
+              </ul>
+            </div>
+            <div class="auto__buttons">
+              <button class="auto__btn-1 btn-reset">Резерв онлайн</button>
+              <button class="auto__btn-2 btn-reset">Купить</button>
+              <button class="auto__btn-3 btn-reset">Подробнее</button>
+            </div>
+          </li>
+          <li class="auto__item">
+            <div class="auto__main">
+              <div class="auto__title-block">
+                <h3 class="auto__name">
+                  Skoda Octavia 1.6 MPI MT Active
+                </h3>
+                <ul class="auto__favourites-list list-reset">
+                  <li class="auto__favourites-item">
+                    <img src="img/header-heart.svg">
+                  </li>
+                  <li class="auto__favourites-item">
+                    <img src="img/header-svg.svg">
+                  </li>
+                </ul>
+              </div>
+              <div class="auto__marketing">
+                <div class="auto__mark-1">
+                  Предложение дня
+                </div>
+                <div class="auto__mark-2">
+                  <p class="auto__text-1">Выгода</p>
+                  <p class="auto__text-2">до 300 000 ₽</p>
+                </div>
+              </div>
+              <div class="auto__present-block">
+                <div class="auto__left">
+                  <ul class="auto__present-list list-reset">
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">Оборудование</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">КАСКО</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">Комплект резины</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="auto__right"></div>
+              </div>
+            </div>
+            <div class="auto__options">
+              <div class="auto__price-block">
+                <div class="auto__price">от 1 615 000 ₽</div>
+                <div class="auto__credit">
+                  <span class="auto__word">Кредит</span>
+                  <span class="auto__number">от 115 000 ₽/мес.</span>
+                </div>
+              </div>
+              <ul class="auto__details-list list-reset">
+                <li class="auto__details-item">
+                  <img src="img/power.svg" class="auto__details-img">
+                  <div class="auto__details-value">115 л.с.</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/fuel-consumption.svg" class="auto__details-img">
+                  <div class="auto__details-value">5.3 л/км</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/speed.svg" class="auto__details-img">
+                  <div class="auto__details-value">189 км/ч</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/time.svg" class="auto__details-img">
+                  <div class="auto__details-value">10,3 c.</div>
+                </li>
+              </ul>
+            </div>
+            <div class="auto__buttons">
+              <button class="auto__btn-1 btn-reset">Резерв онлайн</button>
+              <button class="auto__btn-2 btn-reset">Купить</button>
+              <button class="auto__btn-3 btn-reset">Подробнее</button>
+            </div>
+          </li>
+          <li class="auto__item">
+            <div class="auto__main">
+              <div class="auto__title-block">
+                <h3 class="auto__name">
+                  Skoda Octavia 1.6 MPI MT Active
+                </h3>
+                <ul class="auto__favourites-list list-reset">
+                  <li class="auto__favourites-item">
+                    <img src="img/header-heart.svg">
+                  </li>
+                  <li class="auto__favourites-item">
+                    <img src="img/header-svg.svg">
+                  </li>
+                </ul>
+              </div>
+              <div class="auto__marketing">
+                <div class="auto__mark-1">
+                  Предложение дня
+                </div>
+                <div class="auto__mark-2">
+                  <p class="auto__text-1">Выгода</p>
+                  <p class="auto__text-2">до 300 000 ₽</p>
+                </div>
+              </div>
+              <div class="auto__present-block">
+                <div class="auto__left">
+                  <ul class="auto__present-list list-reset">
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">Оборудование</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">КАСКО</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">Комплект резины</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="auto__right"></div>
+              </div>
+            </div>
+            <div class="auto__options">
+              <div class="auto__price-block">
+                <div class="auto__price">от 1 615 000 ₽</div>
+                <div class="auto__credit">
+                  <span class="auto__word">Кредит</span>
+                  <span class="auto__number">от 115 000 ₽/мес.</span>
+                </div>
+              </div>
+              <ul class="auto__details-list list-reset">
+                <li class="auto__details-item">
+                  <img src="img/power.svg" class="auto__details-img">
+                  <div class="auto__details-value">115 л.с.</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/fuel-consumption.svg" class="auto__details-img">
+                  <div class="auto__details-value">5.3 л/км</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/speed.svg" class="auto__details-img">
+                  <div class="auto__details-value">189 км/ч</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/time.svg" class="auto__details-img">
+                  <div class="auto__details-value">10,3 c.</div>
+                </li>
+              </ul>
+            </div>
+            <div class="auto__buttons">
+              <button class="auto__btn-1 btn-reset">Резерв онлайн</button>
+              <button class="auto__btn-2 btn-reset">Купить</button>
+              <button class="auto__btn-3 btn-reset">Подробнее</button>
+            </div>
+          </li>
+          <li class="auto__item">
+            <div class="auto__main">
+              <div class="auto__title-block">
+                <h3 class="auto__name">
+                  Skoda Octavia 1.6 MPI MT Active
+                </h3>
+                <ul class="auto__favourites-list list-reset">
+                  <li class="auto__favourites-item">
+                    <img src="img/header-heart.svg">
+                  </li>
+                  <li class="auto__favourites-item">
+                    <img src="img/header-svg.svg">
+                  </li>
+                </ul>
+              </div>
+              <div class="auto__marketing">
+                <div class="auto__mark-1">
+                  Предложение дня
+                </div>
+                <div class="auto__mark-2">
+                  <p class="auto__text-1">Выгода</p>
+                  <p class="auto__text-2">до 300 000 ₽</p>
+                </div>
+              </div>
+              <div class="auto__present-block">
+                <div class="auto__left">
+                  <ul class="auto__present-list list-reset">
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">Оборудование</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">КАСКО</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">Комплект резины</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="auto__right"></div>
+              </div>
+            </div>
+            <div class="auto__options">
+              <div class="auto__price-block">
+                <div class="auto__price">от 1 615 000 ₽</div>
+                <div class="auto__credit">
+                  <span class="auto__word">Кредит</span>
+                  <span class="auto__number">от 115 000 ₽/мес.</span>
+                </div>
+              </div>
+              <ul class="auto__details-list list-reset">
+                <li class="auto__details-item">
+                  <img src="img/power.svg" class="auto__details-img">
+                  <div class="auto__details-value">115 л.с.</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/fuel-consumption.svg" class="auto__details-img">
+                  <div class="auto__details-value">5.3 л/км</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/speed.svg" class="auto__details-img">
+                  <div class="auto__details-value">189 км/ч</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/time.svg" class="auto__details-img">
+                  <div class="auto__details-value">10,3 c.</div>
+                </li>
+              </ul>
+            </div>
+            <div class="auto__buttons">
+              <button class="auto__btn-1 btn-reset">Резерв онлайн</button>
+              <button class="auto__btn-2 btn-reset">Купить</button>
+              <button class="auto__btn-3 btn-reset">Подробнее</button>
+            </div>
+          </li>
+          <li class="auto__item">
+            <div class="auto__main">
+              <div class="auto__title-block">
+                <h3 class="auto__name">
+                  Skoda Octavia 1.6 MPI MT Active
+                </h3>
+                <ul class="auto__favourites-list list-reset">
+                  <li class="auto__favourites-item">
+                    <img src="img/header-heart.svg">
+                  </li>
+                  <li class="auto__favourites-item">
+                    <img src="img/header-svg.svg">
+                  </li>
+                </ul>
+              </div>
+              <div class="auto__marketing">
+                <div class="auto__mark-1">
+                  Предложение дня
+                </div>
+                <div class="auto__mark-2">
+                  <p class="auto__text-1">Выгода</p>
+                  <p class="auto__text-2">до 300 000 ₽</p>
+                </div>
+              </div>
+              <div class="auto__present-block">
+                <div class="auto__left">
+                  <ul class="auto__present-list list-reset">
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">Оборудование</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">КАСКО</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">Комплект резины</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="auto__right"></div>
+              </div>
+            </div>
+            <div class="auto__options">
+              <div class="auto__price-block">
+                <div class="auto__price">от 1 615 000 ₽</div>
+                <div class="auto__credit">
+                  <span class="auto__word">Кредит</span>
+                  <span class="auto__number">от 115 000 ₽/мес.</span>
+                </div>
+              </div>
+              <ul class="auto__details-list list-reset">
+                <li class="auto__details-item">
+                  <img src="img/power.svg" class="auto__details-img">
+                  <div class="auto__details-value">115 л.с.</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/fuel-consumption.svg" class="auto__details-img">
+                  <div class="auto__details-value">5.3 л/км</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/speed.svg" class="auto__details-img">
+                  <div class="auto__details-value">189 км/ч</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/time.svg" class="auto__details-img">
+                  <div class="auto__details-value">10,3 c.</div>
+                </li>
+              </ul>
+            </div>
+            <div class="auto__buttons">
+              <button class="auto__btn-1 btn-reset">Резерв онлайн</button>
+              <button class="auto__btn-2 btn-reset">Купить</button>
+              <button class="auto__btn-3 btn-reset">Подробнее</button>
+            </div>
+          </li>
+          <li class="auto__item">
+            <div class="auto__main">
+              <div class="auto__title-block">
+                <h3 class="auto__name">
+                  Skoda Octavia 1.6 MPI MT Active
+                </h3>
+                <ul class="auto__favourites-list list-reset">
+                  <li class="auto__favourites-item">
+                    <img src="img/header-heart.svg">
+                  </li>
+                  <li class="auto__favourites-item">
+                    <img src="img/header-svg.svg">
+                  </li>
+                </ul>
+              </div>
+              <div class="auto__marketing">
+                <div class="auto__mark-1">
+                  Предложение дня
+                </div>
+                <div class="auto__mark-2">
+                  <p class="auto__text-1">Выгода</p>
+                  <p class="auto__text-2">до 300 000 ₽</p>
+                </div>
+              </div>
+              <div class="auto__present-block">
+                <div class="auto__left">
+                  <ul class="auto__present-list list-reset">
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">Оборудование</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">КАСКО</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                    <li class="auto__present-item">
+                      <div class="auto__present-figure">
+                        <img src="img/auto-present.svg" class="auto__present-img">
+                      </div>
+                      <div class="auto__present-texts">
+                        <p class="auto__present-text-1">Комплект резины</p>
+                        <p class="auto__present-text-2">в подарок</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="auto__right"></div>
+              </div>
+            </div>
+            <div class="auto__options">
+              <div class="auto__price-block">
+                <div class="auto__price">от 1 615 000 ₽</div>
+                <div class="auto__credit">
+                  <span class="auto__word">Кредит</span>
+                  <span class="auto__number">от 115 000 ₽/мес.</span>
+                </div>
+              </div>
+              <ul class="auto__details-list list-reset">
+                <li class="auto__details-item">
+                  <img src="img/power.svg" class="auto__details-img">
+                  <div class="auto__details-value">115 л.с.</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/fuel-consumption.svg" class="auto__details-img">
+                  <div class="auto__details-value">5.3 л/км</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/speed.svg" class="auto__details-img">
+                  <div class="auto__details-value">189 км/ч</div>
+                </li>
+                <li class="auto__details-item">
+                  <img src="img/time.svg" class="auto__details-img">
+                  <div class="auto__details-value">10,3 c.</div>
+                </li>
+              </ul>
+            </div>
+            <div class="auto__buttons">
+              <button class="auto__btn-1 btn-reset">Резерв онлайн</button>
+              <button class="auto__btn-2 btn-reset">Купить</button>
+              <button class="auto__btn-3 btn-reset">Подробнее</button>
+            </div>
+          </li>
+        </ul>
+          <button class="auto__btn-more btn-reset">Показать ещё</button>
+      </div>
+    </section>
+
+    <section class="collection">
+      <div class="container collection__container">
+        <h2 class="collection__title">
+          Наши подборки
+        </h2>
+        <ul class="collection__list list-reset">
+          <li class="collection__item" style="background-image: url('img/collection-photo-1.jpg');">
+            <div class="collection__content">
+              <p class="collection__text">
+                Семейные автомобили
+              </p>
+              <button class="collection__btn-1 btn-reset">
+                Посмотреть
+              </button>
+            </div>
+          </li>
+          <li class="collection__item" style="background-image: url('img/collection-photo-2.jpg');">
+            <div class="collection__content">
+              <p class="collection__text">
+                Автомобили для путешествий
+              </p>
+              <button class="collection__btn-1 btn-reset">
+                Посмотреть
+              </button>
+            </div>
+          </li>
+          <li class="collection__item" style="background-image: url('img/collection-photo-3.jpg');">
+            <div class="collection__content">
+              <p class="collection__text">
+                Городские автомобили
+              </p>
+              <button class="collection__btn-1 btn-reset">
+                Посмотреть
+              </button>
+            </div>
+          </li>
+        </ul>
+        <div class="collection__mark">
+          <div class="collection__left">
+            <img src="img/collection-img.svg">
+          </div>
+          <div class="collection__right">
+            <h3 class="collection__subtitle">
+              Перебьём предложения от конкурентов!
+            </h3>
+            <p class="collection__descr-1">
+              Скидки от 10 до 25% на стоимость автомобиля
+            </p>
+            <form action="#" class="collection__form">
+              <div class="collection__tel">
+                <input id="tel" name="tel" type="tel" placeholder="Телефон">
+              </div>
+              <button type="submit" class="collection__btn-2 btn-reset">Заказать</button>
+            </form>
+            <p class="collection__descr-2">
+              Нажимая кнопку “Отправить” Вы даете согласие на обработку своих персональных данных
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offers">
+      <div class="container offers__container">
+        <h2 class="offers__title">
+          Спецпредложения
+        </h2>
+        <ul class="offers__list list-reset">
+          <li class="offers__item" style="background-image: url('img/offers-photo-1.jpg');">
+            <div class="offers__content">
+              <p class="offers__text">
+                Первый автомобиль
+              </p>
+              <p class="offers__descr">
+                1,9% по льготной ставке
+              </p>
+            </div>
+            <button class="offers__btn btn-reset">
+              Узнать больше
+            </button>
+          </li>
+          <li class="offers__item" style="background-image: url('img/offers-photo-2.jpg');">
+            <div class="offers__content">
+              <p class="offers__text">
+                Семейный автомобиль
+              </p>
+              <p class="offers__descr">
+                1,9% по льготной ставке
+              </p>
+            </div>
+            <button class="offers__btn btn-reset">
+              Узнать больше
+            </button>
+          </li>
+          <li class="offers__item" style="background-image: url('img/offers-photo-3.jpg');">
+            <div class="offers__content">
+              <p class="offers__text">
+                Экспресс-кредит
+              </p>
+              <p class="offers__descr">
+                1,9% по льготной ставке
+              </p>
+            </div>
+            <button class="offers__btn btn-reset">
+              Узнать больше
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="banks">
+      <div class="container banks__container">
+        <h2 class="banks__title">
+          Банки-партнёры
+        </h2>
+        <ul class="banks__list list-reset">
+          <li class="banks__item">
+            <img src="img/banks-photo-1.svg" class="banks__img">
+          </li>
+          <li class="banks__item">
+            <img src="img/banks-photo-2.svg" class="banks__img">
+          </li>
+          <li class="banks__item">
+            <img src="img/banks-photo-3.svg" class="banks__img">
+          </li>
+          <li class="banks__item">
+            <img src="img/banks-photo-4.svg" class="banks__img">
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="trust">
+      <div class="container trust__container">
+        <h2 class="trust__title">
+          Нам доверяют
+        </h2>
+        <ul class="trust__list list-reset">
+          <li class="trust__item">
+            <div class="trust__top">
+              <p class="trust__site">Сайт отзовик</p>
+              <p class="trust__name">Название автосалона</p>
+            </div>
+            <div class="trust__bottom">
+              <p class="trust__text">Рекомендуют 90%</p>
+              <div class="trust__score">
+                <ul class="trust__star-list list-reset">
+                  <li class="trust__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="trust__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="trust__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="trust__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="trust__star-item">
+                    <img src="img/star-default.svg">
+                  </li>
+                </ul>
+                <div class="trust__score-value">4.5</div>
+              </div>
+            </div>
+          </li>
+          <li class="trust__item">
+            <div class="trust__top">
+              <p class="trust__site">Сайт отзовик</p>
+              <p class="trust__name">Название автосалона</p>
+            </div>
+            <div class="trust__bottom">
+              <p class="trust__text">Рекомендуют 90%</p>
+              <div class="trust__score">
+                <ul class="trust__star-list list-reset">
+                  <li class="trust__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="trust__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="trust__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="trust__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="trust__star-item">
+                    <img src="img/star-default.svg">
+                  </li>
+                </ul>
+                <div class="trust__score-value">4.5</div>
+              </div>
+            </div>
+          </li>
+          <li class="trust__item">
+            <div class="trust__top">
+              <p class="trust__site">Сайт отзовик</p>
+              <p class="trust__name">Название автосалона</p>
+            </div>
+            <div class="trust__bottom">
+              <p class="trust__text">Рекомендуют 90%</p>
+              <div class="trust__score">
+                <ul class="trust__star-list list-reset">
+                  <li class="trust__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="trust__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="trust__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="trust__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="trust__star-item">
+                    <img src="img/star-default.svg">
+                  </li>
+                </ul>
+                <div class="trust__score-value">4.5</div>
+              </div>
+            </div>
+          </li>
+          <li class="trust__item">
+            <div class="trust__top">
+              <p class="trust__site">Сайт отзовик</p>
+              <p class="trust__name">Название автосалона</p>
+            </div>
+            <div class="trust__bottom">
+              <p class="trust__text">Рекомендуют 90%</p>
+              <div class="trust__score">
+                <ul class="trust__star-list list-reset">
+                  <li class="trust__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="trust__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="trust__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="trust__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="trust__star-item">
+                    <img src="img/star-default.svg">
+                  </li>
+                </ul>
+                <div class="trust__score-value">4.5</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="maps">
+      <div class="container maps__container">
+        <ul class="maps__list list-reset">
+          <li class="maps__item">
+            <div class="maps__left">
+              <img src="img/maps-yandex.svg" class="maps__img">
+              <p class="maps__descr">Название автосалона</p>
+            </div>
+            <div class="maps__center">
+              <div class="maps__text">Рекомендуют 90%</div>
+              <ul class="maps__star-list list-reset">
+                  <li class="maps__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="maps__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="maps__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="maps__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="maps__star-item">
+                    <img src="img/star-default.svg">
+                  </li>
+                </ul>
+            </div>
+            <div class="maps__right">4.5</div>
+          </li>
+          <li class="maps__item">
+            <div class="maps__left">
+              <img src="img/maps-google.svg" class="maps__img">
+              <p class="maps__descr">Название автосалона</p>
+            </div>
+            <div class="maps__center">
+              <div class="maps__text">Рекомендуют 90%</div>
+              <ul class="maps__star-list list-reset">
+                  <li class="maps__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="maps__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="maps__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="maps__star-item">
+                    <img src="img/star-active.svg">
+                  </li>
+                  <li class="maps__star-item">
+                    <img src="img/star-default.svg">
+                  </li>
+                </ul>
+            </div>
+            <div class="maps__right">4.1</div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="comment">
+      <div class="container comment__container">
+        <h2 class="comment__title">
+          Отзывы
+        </h2>
+        <ul class="comment__list list-reset">
+          <li class="comment__item">
+            <div class="comment__img">
+              <button class="comment__play btn-reset"></button>
+            </div>
+            <div class="comment__content">
+              <h3 class="comment__name">Сергей Васильев</h3>
+              <div class="comment__text">
+                  <p>
+                    «Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA, и нас встретил менеджер, Андрей его зовут, очень приятный молодой человек, вникся во все наши проблемы.... Профессионально давал рекомендации всякие, объяснения, нам это очень понравилось, и, в конце концов, с его усилиями совместно с нашими претензиями мы выбрали автомобиль.»
+                  </p>
+              </div>
+              <button class="comment__btn btn-reset">
+                Подробнее
+                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6.99996 8.20528C6.74905 8.20528 6.49818 8.11632 6.30688 7.93878L0.287198 2.34902C-0.0957326 1.99344 -0.0957326 1.41693 0.287198 1.0615C0.669973 0.706063 1.29071 0.706063 1.67367 1.0615L6.99996 6.00762L12.3263 1.06167C12.7092 0.706236 13.3299 0.706236 13.7126 1.06167C14.0957 1.4171 14.0957 1.99361 13.7126 2.34919L7.69304 7.93895C7.50165 8.11652 7.25078 8.20528 6.99996 8.20528Z" fill="#262626"/>
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="comment__item">
+            <div class="comment__img">
+              <button class="comment__play btn-reset"></button>
+            </div>
+            <div class="comment__content">
+              <h3 class="comment__name">Сергей Васильев</h3>
+              <div class="comment__text">
+                  <p>
+                    «Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA, и нас встретил менеджер, Андрей его зовут, очень приятный молодой человек, вникся во все наши проблемы.... Профессионально давал рекомендации всякие, объяснения, нам это очень понравилось, и, в конце концов, с его усилиями совместно с нашими претензиями мы выбрали автомобиль.»
+                  </p>
+              </div>
+              <button class="comment__btn btn-reset">
+                Подробнее
+                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6.99996 8.20528C6.74905 8.20528 6.49818 8.11632 6.30688 7.93878L0.287198 2.34902C-0.0957326 1.99344 -0.0957326 1.41693 0.287198 1.0615C0.669973 0.706063 1.29071 0.706063 1.67367 1.0615L6.99996 6.00762L12.3263 1.06167C12.7092 0.706236 13.3299 0.706236 13.7126 1.06167C14.0957 1.4171 14.0957 1.99361 13.7126 2.34919L7.69304 7.93895C7.50165 8.11652 7.25078 8.20528 6.99996 8.20528Z" fill="#262626"/>
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="comment__item">
+            <div class="comment__img">
+              <button class="comment__play btn-reset"></button>
+            </div>
+            <div class="comment__content">
+              <h3 class="comment__name">Сергей Васильев</h3>
+              <div class="comment__text">
+                  <p>
+                    «Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA, и нас встретил менеджер, Андрей его зовут, очень приятный молодой человек, вникся во все наши проблемы.... Профессионально давал рекомендации всякие, объяснения, нам это очень понравилось, и, в конце концов, с его усилиями совместно с нашими претензиями мы выбрали автомобиль.»
+                  </p>
+              </div>
+              <button class="comment__btn btn-reset">
+                Подробнее
+                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6.99996 8.20528C6.74905 8.20528 6.49818 8.11632 6.30688 7.93878L0.287198 2.34902C-0.0957326 1.99344 -0.0957326 1.41693 0.287198 1.0615C0.669973 0.706063 1.29071 0.706063 1.67367 1.0615L6.99996 6.00762L12.3263 1.06167C12.7092 0.706236 13.3299 0.706236 13.7126 1.06167C14.0957 1.4171 14.0957 1.99361 13.7126 2.34919L7.69304 7.93895C7.50165 8.11652 7.25078 8.20528 6.99996 8.20528Z" fill="#262626"/>
+                </svg>
+              </button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container about__container">
+        <h2 class="about__title">
+          О компании
+        </h2>
+        <p class="about__descr">
+          Мы располагаем огромной торговой площадкой более 5000 квадратных метров, у нас в наличии не менее 200 автомобилей как отечественного, так и иностранного производства. В штате автосалона «Альтера» работают настоящие профессионалы, которые знают особенности каждого конкретного автомобиля.
+        </p>
+        <div class="about__img">
+          <img src="img/play-btn.svg" style="cursor: pointer;">
+        </div>
+      </div>
+    </section>
+
+    <section class="blog">
+      <div class="container blog__container">
+        <h2 class="blog__title">
+          Блог
+        </h2>
+        <ul class="blog__list list-reset">
+          <li class="blog__item">
+            <div class="blog__img"></div>
+            <div class="blog__data">25 октября</div>
+            <div class="blog__text">
+              Тест Skoda Karoq Scout - городской карлик или настоящий скаут
+            </div>
+          </li>
+          <li class="blog__item">
+            <div class="blog__img"></div>
+            <div class="blog__data">25 октября</div>
+            <div class="blog__text">
+              Тест Skoda Karoq Scout - городской карлик или настоящий скаут
+            </div>
+          </li>
+          <li class="blog__item">
+            <div class="blog__img"></div>
+            <div class="blog__data">25 октября</div>
+            <div class="blog__text">
+              Тест Skoda Karoq Scout - городской карлик или настоящий скаут
+            </div>
+          </li>
+          <li class="blog__item">
+            <div class="blog__img"></div>
+            <div class="blog__data">25 октября</div>
+            <div class="blog__text">
+              Тест Skoda Karoq Scout - городской карлик или настоящий скаут
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="info">
+      <div class="container info__container">
+        <ul class="info__list list-reset flex">
+          <li class="info__item">
+            <button class="btn-reset info__btn info__btn--active" data-path="one">
+              Автосалон
+            </button>
+          </li>
+          <li class="info__item">
+            <button class="btn-reset info__btn" data-path="two">
+              Трейд-ин
+            </button>
+          </li>
+          <li class="info__item">
+            <button class="btn-reset info__btn" data-path="three">
+              Покупка
+            </button>
+          </li>
+        </ul>
+        <div class="steps info__steps info__steps--active" data-target="one">
+          <div class="steps__title">
+            Об автосалоне ABC
+          </div>
+          <div class="steps__descr">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar auctor tellus, id volutpat dui dictum vitae. Sed ac mauris nisi. Maecenas quis sollicitudin dolor, eget molestie dolor. Vivamus sed magna euismod, iaculis eros vitae, vehicula justo. Ut id consequat risus, vitae accumsan ligula.
+          </div>
+        </div>
+        <div class="steps info__steps" data-target="two">
+          <div class="steps__title">
+            Трейд-ин
+          </div>
+          <div class="steps__descr">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar auctor tellus, id volutpat dui dictum vitae. Sed ac mauris nisi. Maecenas quis sollicitudin dolor, eget molestie dolor. Vivamus sed magna euismod, iaculis eros vitae, vehicula justo. Ut id consequat risus, vitae accumsan ligula. Proin egestas odio sit amet laoreet vulputate. Suspendisse vitae vestibulum quam. Vivamus lectus justo, bibendum at laoreet vel, rhoncus nec sem. Phasellus at mollis magna, in bibendum massa.
+          </div>
+        </div>
+        <div class="steps info__steps" data-target="three">
+          <div class="steps__title">
+            Покупка
+          </div>
+          <div class="steps__descr">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar auctor tellus, id volutpat dui dictum vitae. Sed ac mauris nisi. Maecenas quis sollicitudin dolor, eget molestie dolor. Vivamus sed magna euismod, iaculis eros vitae, vehicula justo. Ut id consequat risus, vitae accumsan ligula. Proin egestas odio sit amet laoreet vulputate. Suspendisse vitae vestibulum quam. Vivamus lectus justo, bibendum at laoreet vel, rhoncus nec sem. Phasellus at mollis magna, in bibendum massa. Praesent malesuada sit amet nibh ut vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla iaculis a orci sit amet iaculis. Nulla in magna posuere nunc pharetra faucibus. Phasellus id enim libero.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Gmaps">
+      <div class="container Gmaps__container">
+        <div id="map" style="width: 100%; height: 600px">
+          <div class="Gmaps__card">
+            <div class="tel Gmaps__tel">
+              <div class="tel__img">
+                <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.79822 8.02141L7.40832 6.63135C7.13147 6.35561 6.67301 6.36399 6.38653 6.65058L5.68628 7.35067C5.64204 7.32629 5.59625 7.30082 5.54811 7.2738C5.10591 7.02878 4.50069 6.69296 3.86383 6.05563C3.22507 5.41695 2.88894 4.8108 2.64317 4.36832C2.61724 4.32144 2.59239 4.27625 2.56785 4.23333L3.03782 3.76406L3.26887 3.53272C3.5558 3.24572 3.56371 2.78739 3.28751 2.51085L1.89761 1.12064C1.62141 0.84449 1.16274 0.852867 0.875815 1.13987L0.484091 1.53385L0.494796 1.54447C0.363446 1.71207 0.253686 1.90538 0.172005 2.11383C0.0967117 2.31225 0.0498342 2.5016 0.0283993 2.69133C-0.155129 4.21282 0.540148 5.60335 2.42704 7.49027C5.0353 10.0983 7.13721 9.90132 7.22789 9.8917C7.42538 9.8681 7.61465 9.82091 7.807 9.74621C8.01364 9.66549 8.20681 9.55588 8.37431 9.42481L8.38287 9.43242L8.77971 9.04382C9.06604 8.75687 9.07429 8.29838 8.79822 8.02141Z" fill="white"/>
+                </svg>
+              </div>
+              <div class="tel__text">
+                <span>+7 (800) 551-94-31</span>
+                <span>+7 (495) 292-18-67</span>
+              </div>
+            </div>
+            <div class="clock Gmaps__clock">
+              <div class="clock__img">
+                <svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.5 0.00927734C2.46718 0.00927734 0 2.47683 0 5.51012C0 8.5434 2.46718 11.011 5.5 11.011C8.53282 11.011 11 8.5434 11 5.51012C11 2.47683 8.53282 0.00927734 5.5 0.00927734ZM8.11572 8.35539C8.02634 8.44478 7.90902 8.48977 7.79169 8.48977C7.67437 8.48977 7.55696 8.44478 7.46767 8.35539L5.17597 6.06343C5.08978 5.97773 5.04169 5.86122 5.04169 5.73935V2.7597C5.04169 2.50621 5.24697 2.30132 5.5 2.30132C5.75303 2.30132 5.95831 2.50621 5.95831 2.7597V5.54957L8.11572 7.70723C8.2949 7.88652 8.2949 8.17618 8.11572 8.35539Z" fill="white"/>
+                </svg>
+              </div>
+              <div class="clock__text">
+                Ежедневно с 08:00 до 21:00
+              </div>
+            </div>
+            <div class="place Gmaps__place">
+              <div class="place__img">
+                <svg width="9" height="12" viewBox="0 0 9 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.49941 0.015625C2.30274 0.015625 0.515625 1.80301 0.515625 4C0.515625 6.72652 4.08072 10.7292 4.23251 10.8983C4.37508 11.0571 4.624 11.0568 4.76631 10.8983C4.9181 10.7292 8.48319 6.72652 8.48319 4C8.48315 1.80301 6.69606 0.015625 4.49941 0.015625ZM4.49941 6.00464C3.39421 6.00464 2.49509 5.10536 2.49509 4C2.49509 2.89463 3.39423 1.99537 4.49941 1.99537C5.60459 1.99537 6.50371 2.89465 6.50371 4.00002C6.50371 5.10539 5.60459 6.00464 4.49941 6.00464Z" fill="white"/>
+                </svg>
+              </div>
+              <div class="place__text">
+                Россия, Москва, 38КМ МКАД, 6Бс1
+              </div>
+            </div>
+            <button class="Gmaps__btn btn-reset">Как до нас добраться</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__left">
+        <div class="footer__text">
+          © 2021 Автосалон "ABC AUTO". Официальный дилер
+        </div>
+        <div class="footer__block">
+          <p class="footer__descr">Политика конфиденциальности</p>
+          <p class="footer__descr">Пользовательское соглашение</p>
+        </div>
+      </div>
+      <div class="footer__center">
+        Обращаем Ваше внимание на то, что данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса Российской Федерации.
+      </div>
+      <img src="img/footer-img.jpg" class="footer__right">
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+  <script type="text/javascript">
+    ymaps.ready(init);
+    function init(){
+        var myMap = new ymaps.Map("map", {
+            center: [55.597073, 37.511814],
+            zoom: 14
+        });
+
+        var myPlacemark = new ymaps.Placemark([55.597073, 37.511814], {}, {
+          iconLayout: 'default#image',
+          iconImageHref: 'img/map-svg.svg',
+          iconImageSize: [30, 42],
+          iconImageOffset: [-3, -42]
+        });
+
+        myMap.geoObjects.add(myPlacemark);
+    }
+  </script>
+  <script src="js-main/script-main.js"></script>
+
+</body>
+
+</html>
